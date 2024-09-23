@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Car Driver</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="imgs/car.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="road-container">
+            <div class="road"></div>
+            <div class="trees line"></div>
+            <div class="trees line line2"></div>
+            <div class="trees line line3"></div>
+            <div class="trees line line4"></div>
+            <div class="trees line line5"></div>
+            <div class="trees line line6"></div>
+            <img class="car" src="imgs/car.png">
+            <img class="coin" src="imgs/coin.png">
+            <img class="crash" src="imgs/rock.png">
+            <img class="acceleration" src="imgs/speed.png">
+        </div>
+        <img class="trees tree1" src="imgs/tree1.png">
+        <img class="trees tree3" src="imgs/tree3.png">
+        <img class="trees tree5" src="imgs/tree5.png">
+        <img class="trees tree7" src="imgs/tree3.png">
+        <img class="trees tree2" src="imgs/tree2.png">
+        <img class="trees tree4" src="imgs/tree4.png">
+        <img class="trees tree6" src="imgs/tree6.png">
+        <img class="trees tree8" src="imgs/tree2.png">
+        <img class="trees tree9" src="imgs/tree4.png">
+        <img class="trees tree10" src="imgs/tree6.png">
+        <img class="trees tree11" src="imgs/tree1.png">
+        <img class="trees tree12" src="imgs/tree1.png">
+        <img class="trees tree13" src="imgs/tree4.png">
+        <img class="trees tree14" src="imgs/tree4.png">
+        <img class="trees tree15" src="imgs/tree5.png">
+
+        <img class="trees house-img" src="imgs/house.png">
+
+        <div class="info-container">
+            <button type="button" class="info-button">i</button>
+            <div class="info-block">
+                <button type="button" class="info-close-button">x</button>
+                <div class="info-pages-buttons">
+                    <button type="button" class="info-page-button button-how">
+                        How to play?
+                    </button>
+                    <button type="button" class="info-page-button button-top">
+                        Top of players
+                    </button>
+                </div>
+                <span class="info-separator"></span>
+                <div class="info-pages">
+                    <div class="info-page page-default">
+                        <img src="imgs/choose-arrow.png">
+                        <h4>Choose!</h4>
+                    </div>
+                    <div class="info-page page-how">
+                        <h4>How to play <b>Car Driver</b>?</h4>
+                        <p>This game is very easy! <br> You need to press keys <br> <b>W A S D</b> or <b>↑ ← ↓ →</b><br> that driving the car. <br> There will be various obstacles on your way. But your main goal is to collect as many coins as possible to increase your final score and become the first on the <b>Top list</b>!</p>
+                        <img src="imgs/info-picture.png">
+                    </div>
+                    <div class="info-page page-top">
+                        <h4>Top 10 best players</h4>
+                        <table class="info-top-list"></table>
+                        <img src="imgs/top-picture.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="backdrop-play-block">
+            <div class="play-block">
+                <b>Car Driver</b>
+                <button type="button" class="play-button">Play</button>
+            </div>
+        </div>
+
+        <div class="game-block">
+            <button type="button" class="game-button">
+                <img class="pause" src="imgs/pause.png">
+                <img class="play" src="imgs/play.png">
+            </button>
+            <div class="score">
+                    Score:
+                    <span class="full-score">0</span>
+                    Coins: 
+                    <span class="coin-score">0</span>
+            </div>
+        </div>
+        <div class="backdrop-container">
+            <div class="finish-info">
+                You lose!
+                <div class="finish-score">
+                    <span></span>
+                    <form>
+                        Write your name for top list:
+                        <span>
+                            <input type="text" class="input-name" placeholder="Name" spellcheck="false">
+                            <button type="button" class="save-button">Save</button>
+                        </span>
+                        <div class="unknown">Uncorrected name!</div>
+                        <div class="max">Maximum of 10 characters</div>
+                        <div class="done">Name save in top list!</div>
+                    </form>
+                </div>
+                <button type="button" class="restart-button">Try again</button>
+            </div>
+        </div>
+        <script src="js/game-settings.js"></script>
+        <script src="js/constants.js"></script>
+        <script src="js/utils.js"></script>
+        <script src="js/info-block.js"></script>
+        <script src="js/trees-animation.js"></script>
+        <script src="js/element-animation.js"></script>
+        <script src="js/movement.js"></script>
+        <script src="js/input-handler.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
