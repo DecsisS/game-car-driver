@@ -15,6 +15,6 @@ localStorage is used to store data about player results
 
 ## Powered by JavaSript
 
-This game created on only legacy Javascript.
+This game created on only original Javascript.
 
 Stack of this project: JavaScript, HTML, CSS
