@@ -1,8 +1,8 @@
-## Car Driver
+## Car Driver 🏎️
 
 Do you like speed? Beautiful cars and cool wind? Then our game is especially for you. 
 
-Click [here]() to start the race now.
+Click [here](https://decsiss.github.io/game-car-driver/) to start the race now.
 
 ## Recomendation of use
 
